@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    height:18vh;
+    background-color:#e62429;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titulo{
+    color:white;
+}
+
+.navegacion{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 9vh;
+    background-color:#202020;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* a:hover{
+    background-color: gainsboro;
+} */
+
+.efectosnav{
+    border:1px solid black;
+    padding:5px;
+    background-color:#e62429;
+    border-radius: 40px;
+    color:white;
+}
+
+.efectosnav:hover{
+    background-color: #0E96E6;
+    color:#202020;
+}
+
+body{
+    background-color:aqua;
+}
