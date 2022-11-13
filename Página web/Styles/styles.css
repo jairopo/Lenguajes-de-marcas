@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:blanchedalmond;
+}
+
+header{
+    display: flex;
+    height:18vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/banner-logo-marvel-8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+header:hover{
+    background-color:#e62429;
+    background-image: none;
+}
+
+.titulo{
+    color:white;
+    font-size: 8vh;
+    opacity: 0;
+}
+
+.titulo:hover{
+    opacity: 100;
+}
+
+.navegacion{
+    display: flex;
+    /* justify-content:center; */
+    justify-content:center;
+    align-items: center;
+    background-color: #202020;
+    height:10vh;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+}
+
+.efectosnav{
+    border:1px solid black;
+    padding:5px;
+    background-color:#e62429;
+    border-radius: 20px;
+    color:white;
+    font-size:150%;
+    align-items: center;
+}
+
+.efectosnav:hover{
+    background-color: #0E96E6;
+    color:#202020;
+}
+
+p{
+    text-align:justify;
+    margin: 20px;
+    font-size: 2vh;
+}
+
+.ppal{
+    display: flex;
+    margin:10px;
+}
+
+h1{
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+h3{
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    height:12vh;
+    justify-content: left;
+    background-color: #202020;
+    color:white;
+    padding: 30px;;
+}
+
+.contacto{
+    width: 30%;
+    height:100%;
+    font-size: 100%;
+}
+
+/* PÁGINA DE INICIO */
+
+.definicion{
+    display:flex;
+    flex-direction: column;
+    width:60%;
+    margin:10px;
+}
+
+.hijoDef{
+   /*  flex-wrap: wrap row; */
+    width: 100%;
+    margin: 5px;
+    align-items: center;
+    text-align:justify;
+    margin: 5px;
+    font-size: 2vh;
+}
+
+.novedad{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    margin:10px;
+    border: 5px solid #e62429;
+    background-color: rgba(243, 209, 106, 0.869);
+}
+
+.hijoNov{
+    align-items: center;
+    justify-content: center;
+    text-align:justify;
+    margin: 15px;
+    font-size: 2vh;
+    
+}
+
+#wakandaTrailer{
+    margin:auto;
+    width: 80%;
+    height:50%;
+    border:5px solid #0E96E6;
+}
+
+
+.hrDef{
+    border:1px dotted #e62429;
+    border-bottom: none;
+    border-width: 5px;
+}
+
+
+
+/* PÁGINA SOBRE TI */
+
+.textoIntro{
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    /* border: 5px solid #0E96E6; */
+    flex-direction: column;
+    padding:5px;
+}
+
+.fotoIzq{
+    width: 20%;
+    border-radius: 5px;
+    border: 5px solid #0E96E6;
+    margin:5px;
+}
+
+.hijoFoto{
+    width: 100%;
+    height: 100%;
+}
+
+#docStrange{
+    width:100%;
+    height: 100%;
+}
+
+.fotoDrch{
+    width: 20%;
+    border-radius: 5px;
+    border: 4px solid #e62429;
+    margin:5px;
+}
+
+#ironman{
+    width:100%;
+    height: 100%;
+}
+
+.formularios{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    margin:5px;
+}
+
+.primerosFormularios{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.formulario1{
+    width: 50%;
+    height: 50%;
+}
+
+.formulario2{
+    width: 50%;
+    height: 50%;
+}
+
+.formulario3{
+    width: 50%;
+    height: 50%;
+}
+
+.formulario4{
+    width: 50%;
+    height: 50%;
+}
