@@ -44,42 +44,71 @@
                     <h3>Datos Personales</h3>
                 </div>
                 <div class="hijosTituloForm">
-                    <h3>Datos Personales</h3>
+                    <h3>Afciones</h3>
                 </div>
             </div>
 
             <div class="primerosFormularios">
                 <div class="datos">
-                    <form action="/action_page.php">
-                        <label for="nombre">Nombre:</label><br>
-                        <input type="text" id="nombre" name="nombre" value="Jairo"><br>
-                        <label for="apellidos">Apellidos:</label><br>
-                        <input type="text" id="apellidos" name="apellidos" value="Andrades Bueno"><br><br>
-                        <input type="submit" value="Enviar">
-                    </form> 
+                    <div class="hijoDatos">
+                        <div clas="formDatos">
+                            <form>
+                                <label for="nombre">Nombre:</label><br>
+                                <input type="text" id="nombre" name="nombre" value="Jairo"><br>
+                                <label for="apellidos">Apellidos:</label><br>
+                                <input type="text" id="apellidos" name="apellidos" value="Andrades Bueno"><br><br>
+                                <input type="submit" value="Enviar">
+                            </form> 
+                        </div>
+                        
+                        <div clas="formDatos">
+                            <form>
+                                <label for="Usuario">Username:</label><br>
+                                <input type="text" id="usuario" name="usuario"><br>
+                                <label for="contraseña">Contraseña:</label><br>
+                                <input type="password" id="contraseña" name="contraseña"><br><br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+
+                    </div>
+
+                    
                 </div>
 
                 <div class="aficiones">
-                    <h3 class="tituloForm">Aficiones</h3>
                     
                     
                 </div>
                 
             </div>
 
+            <div class="titulosForm">
+                <div class="hijosTituloForm">
+                    <h3>Gustos Personales</h3>
+                </div>
+                <div class="hijosTituloForm">
+                    <h3>Sugerencias</h3>
+                </div>
+            </div>
+
             <div class="primerosFormularios">
                 <div class="gustos">
-                    <h3>Gustos Personales</h3>
-
                     <div class="hijoGustos">
                         <div class="formGustos">
                             <form>
                                 <label for="mascotas">Cuál es tu mascota preferida:</label>
-                                <select id="mascotas" name="mascotas" size="4" multiple>
+                                <select id="mascotas" name="mascotas" size="4">
                                   <option value="perro">Perro</option>
                                   <option value="gato">Gato</option>
                                   <option value="hamster">Hamster</option>
-                                  <option value="huron">Huron</option>
+                                  <option value="huron">Hurón</option>
+                                  <option value="conejo">Conejo</option>
+                                  <option value="tortuga">Tortuga</option>
+                                  <option value="pez">Pez</option>
+                                  <option value="cobaya">Cobaya</option>
+                                  <option value="pulpo">Pulpo</option>
+                                  <option value="pajaro">Pájaro</option>
                                 </select><br><br>
                                 <input type="submit">
                             </form>
@@ -87,12 +116,12 @@
                         
                         <div class="formGustos">
                             <form>
-                                <label for="mascotas">Cuál es tu mascota preferida:</label>
-                                <select id="mascotas" name="mascotas" size="4" multiple>
-                                  <option value="perro">Perro</option>
-                                  <option value="gato">Gato</option>
-                                  <option value="hamster">Hamster</option>
-                                  <option value="huron">Huron</option>
+                                <label for="mascotas">Cuál es tu película preferida:</label>
+                                <select id="mascotas" name="mascotas" size="4">
+                                  <option value="infinity">Vengadores: Infinity War</option>
+                                  <option value="endgame">Vengadores: Endgame</option>
+                                  <option value="ultron">Vengadores: La Era de Ultrón</option>
+                                  <option value="vengadores1">Los Vengadores (La primera)</option>
                                 </select><br><br>
                                 <input type="submit">
                             </form>
@@ -102,12 +131,20 @@
                     <div class="hijoGustos">
                         <div class="formGustos">
                             <form>
-                                <label for="mascotas">Cuál es tu mascota preferida:</label>
-                                <select id="mascotas" name="mascotas" size="4" multiple>
-                                  <option value="perro">Perro</option>
-                                  <option value="gato">Gato</option>
-                                  <option value="hamster">Hamster</option>
-                                  <option value="huron">Huron</option>
+                                <label for="mascotas">Cuál es tu personaje preferido:</label>
+                                <select id="mascotas" name="mascotas" size="4">
+                                  <option value="ironman">Iron Man</option>
+                                  <option value="capitan">Capitán América</option>
+                                  <option value="thor">Thor</option>
+                                  <option value="strange">Dc. Strange</option>
+                                  <option value="spider">Spider-Man</option>
+                                  <option value="wanda">Bruja Escarlata</option>
+                                  <option value="vision">Vision</option>
+                                  <option value="hulk">Hulk</option>
+                                  <option value="panther">Black Panther</option>
+                                  <option value="falcon">Falcon</option>
+                                  <option value="antman">Ant-Man</option>
+                                  <option value="viuda">La Viuda Negra</option>
                                 </select><br><br>
                                 <input type="submit">
                             </form>
@@ -116,7 +153,7 @@
                         <div class="formGustos">
                             <form>
                                 <label for="mascotas">Cuál es tu mascota preferida:</label>
-                                <select id="mascotas" name="mascotas" size="4" multiple>
+                                <select id="mascotas" name="mascotas" size="4">
                                   <option value="perro">Perro</option>
                                   <option value="gato">Gato</option>
                                   <option value="hamster">Hamster</option>
@@ -130,10 +167,9 @@
                     
 
                 <div  class="sugerencias">
-                    <h3 class="tituloForm">Sugerencias</h3>
-                    <div>
+                    <div class="formSug">
                         <form>
-                            <textarea name="message" rows="10" cols="50">Estaría bien si añadieras un apartado para dar 'like' a la película que más nos guste.</textarea>
+                            <textarea name="message" rows="10" cols="50">Ejemplo: Estaría bien si añadieras un apartado para dar 'like' a la película que más nos guste.</textarea>
                             <br><br>
                             <input type="submit" value="Enviar">
                         </form>
