@@ -9,7 +9,9 @@
 </head>
 <body>
     <header>
-        <h1 class="titulo">MARVEL CINEMATIC UNIVERSE</h1>
+        <div class="titulo">
+            <h1>MARVEL CINEMATIC UNIVERSE</h1>
+        </div>
     </header>
     
     <nav class="navegacion">
@@ -26,7 +28,7 @@
             </div>
         </article>
 
-        <article class="formularios">
+        <article class="formulariosPadre">
             <div class="textoIntro">
                 <h1>SOBRE TI</h1>
                 <p>
@@ -37,30 +39,105 @@
                 </p>
             </div>
 
-            <div class="primerosFormularios">
-                <div class="formulario1">
+            <div class="titulosForm">
+                <div class="hijosTituloForm">
                     <h3>Datos Personales</h3>
+                </div>
+                <div class="hijosTituloForm">
+                    <h3>Datos Personales</h3>
+                </div>
+            </div>
 
-                    
-                 
+            <div class="primerosFormularios">
+                <div class="datos">
+                    <form action="/action_page.php">
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" value="Jairo"><br>
+                        <label for="apellidos">Apellidos:</label><br>
+                        <input type="text" id="apellidos" name="apellidos" value="Andrades Bueno"><br><br>
+                        <input type="submit" value="Enviar">
+                    </form> 
                 </div>
 
-                <div class="formulario2">
-                    <h3>Aficiones</h3>
+                <div class="aficiones">
+                    <h3 class="tituloForm">Aficiones</h3>
+                    
                     
                 </div>
                 
             </div>
 
             <div class="primerosFormularios">
-                <div class="formulario3">
+                <div class="gustos">
                     <h3>Gustos Personales</h3>
+
+                    <div class="hijoGustos">
+                        <div class="formGustos">
+                            <form>
+                                <label for="mascotas">Cuál es tu mascota preferida:</label>
+                                <select id="mascotas" name="mascotas" size="4" multiple>
+                                  <option value="perro">Perro</option>
+                                  <option value="gato">Gato</option>
+                                  <option value="hamster">Hamster</option>
+                                  <option value="huron">Huron</option>
+                                </select><br><br>
+                                <input type="submit">
+                            </form>
+                        </div>
+                        
+                        <div class="formGustos">
+                            <form>
+                                <label for="mascotas">Cuál es tu mascota preferida:</label>
+                                <select id="mascotas" name="mascotas" size="4" multiple>
+                                  <option value="perro">Perro</option>
+                                  <option value="gato">Gato</option>
+                                  <option value="hamster">Hamster</option>
+                                  <option value="huron">Huron</option>
+                                </select><br><br>
+                                <input type="submit">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="hijoGustos">
+                        <div class="formGustos">
+                            <form>
+                                <label for="mascotas">Cuál es tu mascota preferida:</label>
+                                <select id="mascotas" name="mascotas" size="4" multiple>
+                                  <option value="perro">Perro</option>
+                                  <option value="gato">Gato</option>
+                                  <option value="hamster">Hamster</option>
+                                  <option value="huron">Huron</option>
+                                </select><br><br>
+                                <input type="submit">
+                            </form>
+                        </div>
+
+                        <div class="formGustos">
+                            <form>
+                                <label for="mascotas">Cuál es tu mascota preferida:</label>
+                                <select id="mascotas" name="mascotas" size="4" multiple>
+                                  <option value="perro">Perro</option>
+                                  <option value="gato">Gato</option>
+                                  <option value="hamster">Hamster</option>
+                                  <option value="huron">Huron</option>
+                                </select><br><br>
+                                <input type="submit">
+                            </form>
+                        </div>
+                    </div>
                 </div>
                     
 
-                <div  class="formulario4">
-                    <h3>Sugerencias</h3>
-                    
+                <div  class="sugerencias">
+                    <h3 class="tituloForm">Sugerencias</h3>
+                    <div>
+                        <form>
+                            <textarea name="message" rows="10" cols="50">Estaría bien si añadieras un apartado para dar 'like' a la película que más nos guste.</textarea>
+                            <br><br>
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </div>
                 </div>
                 
             </div>

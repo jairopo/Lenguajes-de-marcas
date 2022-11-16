@@ -12,7 +12,6 @@ header{
     background-image: url(/images/banner-logo-marvel-8.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
 }
 
 header:hover{
@@ -98,7 +97,7 @@ footer{
 }
 
 .contacto{
-    width: 30%;
+    width: 100%;
     height:100%;
     font-size: 100%;
 }
@@ -160,15 +159,6 @@ footer{
 
 /* PÁGINA SOBRE TI */
 
-.textoIntro{
-    align-items: center;
-    text-align: justify;
-    justify-content: center;
-    /* border: 5px solid #0E96E6; */
-    flex-direction: column;
-    padding:5px;
-}
-
 .fotoIzq{
     width: 20%;
     border-radius: 5px;
@@ -198,13 +188,32 @@ footer{
     height: 100%;
 }
 
-.formularios{
+.formulariosPadre{
     display: flex;
     flex-direction: column;
     width: 60%;
     height: 100%;
     margin:5px;
 }
+.textoIntro{
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    /* border: 5px solid #0E96E6; */
+    flex-direction: column;
+    padding:5px;
+}
+
+.titulosForm{
+    display: flex;
+    flex-direction: row;
+}
+
+.hijosTituloForm{
+    width: 50%;
+    height: 50%;
+}
+
 
 .primerosFormularios{
     display: flex;
@@ -213,22 +222,50 @@ footer{
     height: 100%;
 }
 
-.formulario1{
+.datos{
+    text-align: center;
     width: 50%;
     height: 50%;
 }
 
-.formulario2{
+.aficiones{
     width: 50%;
     height: 50%;
 }
 
-.formulario3{
+.gustos{
+    display: flex;
+    flex-direction: column;
     width: 50%;
     height: 50%;
 }
 
-.formulario4{
+.hijoGustos{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+
+.formGustos{
     width: 50%;
     height: 50%;
+}
+
+.sugerencias{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+}
+
+.tituloForm{
+    width: 100%;
+}
+
+div{
+        border:1px solid #202020 ;
+
 }
