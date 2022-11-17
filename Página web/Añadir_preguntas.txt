@@ -1,6 +1,6 @@
 Añadir:
 - Terminar opciones formularios
-- Poner otras fotos pa que no estén alargadas
+- Poner otras fotos
 
 - Fases: imganes movimiento.
 

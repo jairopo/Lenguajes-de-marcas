@@ -89,11 +89,11 @@ h3{
 
 footer{
     display: flex;
-    height:12vh;
+    height:11vh;
     justify-content: left;
     background-color: #202020;
     color:white;
-    padding: 30px;;
+    padding: 30px;
 }
 
 .contacto{
@@ -102,36 +102,39 @@ footer{
     font-size: 100%;
 }
 
+.enlaces {
+    color:#0E96E6;
+}
+
 
 /* PÁGINA SOBRE TI */
 
 .fotoIzq{
     width: 20%;
-    border-radius: 5px;
-    border: 5px solid #0E96E6;
     margin:5px;
 }
 
 .hijoFoto{
-    width: 100%;
-    height: 100%;
+    width: 98%;
+    height: 50%;
+    margin-top: 12px;
 }
 
 #docStrange{
     width:100%;
-    height: 100%;
+    border-radius: 5px;
+    border: 4px solid #e62429;
 }
 
 .fotoDrch{
     width: 20%;
-    border-radius: 5px;
-    border: 4px solid #e62429;
     margin:5px;
 }
 
 #ironman{
     width:100%;
-    height: 100%;
+    border-radius: 5px;
+    border: 4px solid #0E96E6;    
 }
 
 .formulariosPadre{
@@ -198,7 +201,6 @@ footer{
 
 .hijosAficiones{
     display: flex;
-    /* text-align: center; */
     flex-direction: row;
     width: 100%;
     height: 100%;
@@ -259,7 +261,7 @@ footer{
     margin-top:20px;
 }
 
-div{
+/* div{
     border:1px solid #202020 ;
-
-}
+}*/
+ 

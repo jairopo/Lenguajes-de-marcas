@@ -65,14 +65,17 @@ a{
 }
 
 p{
-    text-align:justify;
-    margin: 20px;
+    text-align:center;
+    margin: 10px;
     font-size: 2vh;
 }
 
 .ppal{
     display: flex;
-    margin:10px;
+    width:100%;
+    height: 100%;
+   /*  margin: 10px; */
+    border: 1px solid black;
 }
 
 h1{
@@ -93,7 +96,7 @@ footer{
     justify-content: left;
     background-color: #202020;
     color:white;
-    padding: 30px;;
+    padding: 30px;
 }
 
 .contacto{
@@ -106,53 +109,36 @@ footer{
     color:#0E96E6;
 }
 
-/* PÁGINA DE INICIO */
+/* FASES */
 
-.definicion{
-    display:flex;
-    flex-direction: column;
-    width:60%;
-    margin:10px;
+.fasesDiv{
+display: flex;
+flex-direction: row;
+width:100%;
+height: 100%;
+justify-content: center;
+align-items: center;
 }
 
-.hijoDef{
-   /*  flex-wrap: wrap row; */
-    width: 100%;
-    margin: 5px;
-    align-items: center;
-    text-align:justify;
-    margin: 5px;
-    font-size: 2vh;
+.divF{
+    background-color: red;
+    position: relative;
+    animation-name: moveF;
+    animation-duration: 4s;
+    animation-direction: reverse; 
 }
 
-.novedad{
-    display: flex;
-    width: 40%;
-    flex-direction: column;
-    margin:10px;
-    border: 5px solid #e62429;
-    background-color: rgba(243, 209, 106, 0.869);
-}
-
-.hijoNov{
-    align-items: center;
-    justify-content: center;
-    text-align:justify;
-    margin: 15px;
-    font-size: 2vh;
-    
-}
-
-#wakandaTrailer{
-    margin:auto;
-    width: 80%;
-    height:50%;
-    border:5px solid #0E96E6;
+@keyframes moveF{
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:300px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:-9px;}
 }
 
 
-.hrDef{
-    border:1px dotted #e62429;
-    border-bottom: none;
-    border-width: 5px;
+
+div{
+    border: 1px solid black;
 }
+
