@@ -1,10 +1,6 @@
-Añadir: 
-- Datos: correo y contraseña
+Añadir:
 
 
 
 Preguntas:
-- aficiones?
-- base de datos (formulario)
-- foto pagina 2
 

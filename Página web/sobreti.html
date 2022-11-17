@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre ti</title>
-    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="Styles/sobretiStyle.css">
 </head>
 <body>
     <header>
@@ -50,38 +50,63 @@
 
             <div class="primerosFormularios">
                 <div class="datos">
-                    <div class="hijoDatos">
+                    <div class="hijosDatos">
                         <div clas="formDatos">
                             <form>
                                 <label for="nombre">Nombre:</label><br>
-                                <input type="text" id="nombre" name="nombre" value="Jairo"><br>
+                                <input type="text" id="nombre" name="nombre" placeholder="Jairo"><br>
                                 <label for="apellidos">Apellidos:</label><br>
-                                <input type="text" id="apellidos" name="apellidos" value="Andrades Bueno"><br><br>
+                                <input type="text" id="apellidos" name="apellidos" placeholder="Andrades Bueno"><br><br>
                                 <input type="submit" value="Enviar">
                             </form> 
                         </div>
                         
                         <div clas="formDatos">
                             <form>
-                                <label for="Usuario">Username:</label><br>
-                                <input type="text" id="usuario" name="usuario"><br>
+                                <label for="Usuario">Usuario:</label><br>
+                                <input type="text" id="usuario" name="usuario" placeholder="Jairopo"><br>
                                 <label for="contraseña">Contraseña:</label><br>
-                                <input type="password" id="contraseña" name="contraseña"><br><br>
+                                <input type="password" id="contraseña" name="contraseña" placeholder="12345678"><br><br>
                                 <input type="submit" value="Enviar">
                             </form>
                         </div>
-
                     </div>
 
-                    
-                </div>
-
-                <div class="aficiones">
-                    
-                    
+                    <div class="hijosDatos">
+                        <div clas="formDatos">
+                            <form>
+                                <form>
+                                    <label for="email">Correo electrónico:</label><br>
+                                    <input type="email" id="email" name="email" placeholder="jairo.po8@gmail.com" required><br><br>
+                                    <input type="submit" value="Enviar">
+                                </form>
+                            </form> 
+                        </div>
+                        
+                        <div clas="formDatos">
+                            <form>
+                                <label for="telefono">Teléfono:</label><br>
+                                <input type="tel" id="telefono" name="telefono" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                    </div>
                 </div>
                 
+                <div class="sugerencias">
+                    <div class="formSug">
+                        <form>
+                            <textarea name="message" rows="10" cols="50">Ejemplo: Estaría bien si añadieras un apartado para dar 'like' a la película que más nos guste.</textarea>
+                            <br><br>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Restablecer">
+                        </form>
+                    </div>
+                </div>
+
             </div>
+
+            <hr class="hrForm">
 
             <div class="titulosForm">
                 <div class="hijosTituloForm">
@@ -97,8 +122,8 @@
                     <div class="hijoGustos">
                         <div class="formGustos">
                             <form>
-                                <label for="mascotas">Cuál es tu mascota preferida:</label>
-                                <select id="mascotas" name="mascotas" size="4">
+                                <label for="mascotas">Cuál es tu mascota preferida:</label><br>
+                                <select id="mascotas" name="mascotas" size="6">
                                   <option value="perro">Perro</option>
                                   <option value="gato">Gato</option>
                                   <option value="hamster">Hamster</option>
@@ -116,8 +141,8 @@
                         
                         <div class="formGustos">
                             <form>
-                                <label for="mascotas">Cuál es tu película preferida:</label>
-                                <select id="mascotas" name="mascotas" size="4">
+                                <label for="mascotas">Cuál es tu película preferida:</label><br>
+                                <select id="mascotas" name="mascotas" size="6">
                                   <option value="infinity">Vengadores: Infinity War</option>
                                   <option value="endgame">Vengadores: Endgame</option>
                                   <option value="ultron">Vengadores: La Era de Ultrón</option>
@@ -131,8 +156,8 @@
                     <div class="hijoGustos">
                         <div class="formGustos">
                             <form>
-                                <label for="mascotas">Cuál es tu personaje preferido:</label>
-                                <select id="mascotas" name="mascotas" size="4">
+                                <label for="mascotas">Cuál es tu personaje preferido:</label><br>
+                                <select id="mascotas" name="mascotas" size="6">
                                   <option value="ironman">Iron Man</option>
                                   <option value="capitan">Capitán América</option>
                                   <option value="thor">Thor</option>
@@ -152,8 +177,8 @@
 
                         <div class="formGustos">
                             <form>
-                                <label for="mascotas">Cuál es tu mascota preferida:</label>
-                                <select id="mascotas" name="mascotas" size="4">
+                                <label for="mascotas">Cuál es tu mascota preferida:</label><br>
+                                <select id="mascotas" name="mascotas" size="6">
                                   <option value="perro">Perro</option>
                                   <option value="gato">Gato</option>
                                   <option value="hamster">Hamster</option>
@@ -164,18 +189,88 @@
                         </div>
                     </div>
                 </div>
-                    
 
-                <div  class="sugerencias">
-                    <div class="formSug">
-                        <form>
-                            <textarea name="message" rows="10" cols="50">Ejemplo: Estaría bien si añadieras un apartado para dar 'like' a la película que más nos guste.</textarea>
-                            <br><br>
-                            <input type="submit" value="Enviar">
-                        </form>
+                <div class="aficiones">
+                    <div class="hijosAficiones">
+                        <div class="formAficiones">
+                            <h4>Deportes</h4>
+                            <form>
+                                <input type="checkbox" id="deporte1" name="deporte1" value="futbol">
+                                <label for="deporte1"> Fútbol</label><br>
+                                <input type="checkbox" id="deporte2" name="deporte2" value="baloncesto">
+                                <label for="deporte2"> Baloncesto</label><br>
+                                <input type="checkbox" id="deporte3" name="deporte3" value="voleibol">
+                                <label for="deporte3"> Voleibol</label><br>
+                                <input type="checkbox" id="deporte4" name="deporte4" value="tenis">
+                                <label for="deporte4"> Tenis</label><br>
+                                <input type="checkbox" id="deporte5" name="deporte5" value="padel">
+                                <label for="deporte5"> Padel</label><br>
+                                <input type="checkbox" id="deporte6" name="deporte6" value="otroDept">
+                                <label for="deporte6"> Otro</label><br><br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                        <div class="formAficiones">
+                            <h4>Videojuegos</h4>
+                            <form>
+                                <input type="checkbox" id="juego1" name="juego1" value="cod">
+                                <label for="juego1"> COD</label><br>
+                                <input type="checkbox" id="juego2" name="juego2" value="gtaV">
+                                <label for="juego2"> GTA V</label><br>
+                                <input type="checkbox" id="juego3" name="juego3" value="fortnite">
+                                <label for="juego3"> Fortnite</label><br>
+                                <input type="checkbox" id="juego4" name="juego4" value="minecraft">
+                                <label for="juego4"> minecraft</label><br>
+                                <input type="checkbox" id="juego5" name="juego5" value="uncharted">
+                                <label for="juego5"> Uncharted</label><br>
+                                <input type="checkbox" id="juego6" name="juego6" value="otroJuego">
+                                <label for="juego6"> Otro</label><br><br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="hijosAficiones">
+                        <div class="formAficiones">
+                            <h4>Arte</h4>
+                            <form>
+                                <input type="checkbox" id="arte1" name="arte1" value="musica">
+                                <label for="arte1"> Música</label><br>
+                                <input type="checkbox" id="arte2" name="arte2" value="danza">
+                                <label for="arte2"> Danza</label><br>
+                                <input type="checkbox" id="arte3" name="arte3" value="pintura">
+                                <label for="arte3"> Pintura</label><br>
+                                <input type="checkbox" id="arte4" name="arte4" value="cine">
+                                <label for="arte4"> Cine</label><br>
+                                <input type="checkbox" id="arte5" name="arte5" value="literatura">
+                                <label for="arte5"> Literatura</label><br>
+                                <input type="checkbox" id="arte6" name="arte6" value="otroArte">
+                                <label for="arte6"> Otro</label><br><br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                        <div class="formAficiones">
+                            <h4>Videojuegos</h4>
+                            <form>
+                                <input type="checkbox" id="juego1" name="juego1" value="cod">
+                                <label for="juego1"> COD</label><br>
+                                <input type="checkbox" id="juego2" name="juego2" value="gtaV">
+                                <label for="juego2"> GTA V</label><br>
+                                <input type="checkbox" id="juego3" name="juego3" value="fortnite">
+                                <label for="juego3"> Fortnite</label><br>
+                                <input type="checkbox" id="juego4" name="juego4" value="minecraft">
+                                <label for="juego4"> Minecraft</label><br>
+                                <input type="checkbox" id="juego5" name="juego5" value="uncharted">
+                                <label for="juego5"> Uncharted</label><br>
+                                <input type="checkbox" id="juego6" name="juego6" value="otroJuego">
+                                <label for="juego6"> Otro</label><br><br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+
+
                     </div>
                 </div>
-                
             </div>
         </article>
 
