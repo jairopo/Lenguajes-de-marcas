@@ -2,7 +2,10 @@ Añadir:
 - Terminar opciones formularios
 - Poner otras fotos
 
-- Fases: imganes movimiento.
+Fases: 
+- imagenes movimiento.
+- Otro disponible prox.
+- Fondo?
 
 
 

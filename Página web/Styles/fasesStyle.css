@@ -74,8 +74,8 @@ p{
     display: flex;
     width:100%;
     height: 100%;
-   /*  margin: 10px; */
-    border: 1px solid black;
+   /*  margin: 10px;
+    border: 1px solid black; */
 }
 
 h1{
@@ -111,6 +111,17 @@ footer{
 
 /* FASES */
 
+.proximamente{
+    text-align:center;
+    width: 150px;
+    height: 80px;
+    margin: 10px;
+    font-size: 2vh;
+    background-color: yellow;
+    -ms-transform: skewY(20deg);
+    transform: skewY(20deg);
+}
+
 .fasesDiv{
 display: flex;
 flex-direction: row;
@@ -118,27 +129,121 @@ width:100%;
 height: 100%;
 justify-content: center;
 align-items: center;
+margin: 4%;
 }
 
 .divF{
     background-color: red;
+    font-size:15vh;
     position: relative;
     animation-name: moveF;
-    animation-duration: 4s;
-    animation-direction: reverse; 
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;  
+    animation-direction: alternate-reverse; 
+    color:white;
 }
 
 @keyframes moveF{
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:300px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:-9px;}
+    100%   {background-color:orange; left:0px; top:0px;;} /*sup drch*/
+    75%  {background-color:blue; left:-500px; top:160px;
+         transform: rotate(360deg);} /*bajo izq*/
+    50%  {background-color:green; left:650px; top:160px;
+        transform: rotate(0deg)} /*bajo drch*/
+    25%  {background-color:rgb(235, 108, 129); left:-450px; top:-200px;} /*sup izq*/
+    0% {background-color:red; left:0px; top:-9px;} /*centro*/
+}
+
+.divA{
+    background-color: orange;
+    font-size:15vh;
+    position: relative;
+    animation-name: moveA;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;  
+    animation-direction: alternate-reverse; 
+    color:white;
+}
+
+@keyframes moveA{
+    100%   {background-color:blue; left:0px; top:0px;
+             transform: rotate(-360deg);} /*sup izq*/
+    75%  {background-color:green; left:-12px; top:160px;
+        transform: rotate(0deg);} /*bajo centro*/
+    50%  {background-color:rgb(235, 108, 129); left:510px; top:-200px;} /*sup drch*/
+    25%  {background-color:red; left:-500px; top:160px;} /*bajo izq*/
+    0% {background-color:orange; left:0px; top:-0px;} /*centro*/
+}
+
+.divS1{
+    background-color: blue;
+    font-size:15vh;
+    position: relative;
+    animation-name: moveS1;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;  
+    animation-direction: alternate-reverse; 
+    color:white;
+}
+
+@keyframes moveS1{
+    100%    {background-color:green; left:0px; top:0px;} /*bajo izq*/
+    75%  {background-color:rgb(235, 108, 129); left:400px; top:160px;} /*bajo drch*/
+    50%  {background-color:red; left:-550px; top:-200px;
+          transform: rotate(-360deg)} /*sup izq*/
+    25%  {background-color:orange; left:-12px; top:160px;
+        transform: rotate(0deg)} /*bajo centro*/
+    0% {background-color:blue; left:0px; top:-0px;} /*centro*/
+}
+
+.divE{
+    background-color: green;
+    font-size:15vh;
+    position: relative;
+    animation-name: moveE;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;  
+    animation-direction: alternate-reverse; 
+    color:white;
+}
+
+@keyframes moveE{
+    100%   {background-color:rgb(235, 108, 129); left:0px; top:0px;} /*bajo centro*/
+    75%  {background-color:red; left:410px; top:-200px;} /*sup drch*/
+    50%  {background-color:orange; left:-600px; top:160px;
+         transform: rotate(-360deg);} /*bajo izq*/
+    25%  {background-color:blue; left:500px; top:160px;
+        transform: rotate(0deg);} /*bajo drch*/
+    0% {background-color:green; left:0px; top:-0px;} /*centro*/
+}
+
+.divS2{
+    background-color: rgb(235, 108, 129);
+    font-size:15vh;
+    position: relative;
+    animation-name: moveS2;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;  
+    animation-direction: alternate-reverse; 
+    color:white;
+}
+
+@keyframes moveS2{
+    100%   {background-color:red; left:0px; top:0px;} /*baj derech*/
+    75%  {background-color:orange; left:-650px; top:-200px;} /*sup izq*/
+    50%  {background-color:blue; left:-12px; top:160px;} /*centro bajo*/
+    25%  {background-color:green; left:450px; top:-200px;
+            transform: rotate(-360deg);} /*sup derech*/
+    0% {background-color:rgb(235, 108, 129); left:0px; top:0px;
+        transform: rotate(0deg)} /*centro*/
 }
 
 
-
-div{
+/* div{
     border: 1px solid black;
-}
+} */
 
