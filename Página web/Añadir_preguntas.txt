@@ -8,6 +8,8 @@ Fases:
 - Fondo?
 - logo vengadores
 
+imágenes:
+- eliminar el resto de img
 
 
 Preguntas:
