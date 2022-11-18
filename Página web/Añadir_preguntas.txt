@@ -6,6 +6,7 @@ Fases:
 - imagenes movimiento.
 - Otro disponible prox.
 - Fondo?
+- logo vengadores
 
 
 
