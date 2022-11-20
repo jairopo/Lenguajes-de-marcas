@@ -37,7 +37,6 @@ header:hover{
 
 .navegacion{
     display: flex;
-    /* justify-content:center; */
     justify-content:center;
     align-items: center;
     background-color: #202020;
@@ -66,7 +65,7 @@ a{
 
 p{
     text-align:center;
-    margin: 10px;
+    margin: 20px;
     font-size: 2vh;
 }
 
@@ -117,9 +116,9 @@ footer{
 }
 .proxIzq{
     text-align:center;
-    width: 150px;
+    width: 10%;
     height: 80px;
-    margin-left: 15px;
+    margin-left: 10px;
     font-size: 2vh;
     border: 1px solid black;
     background-color: yellow;
@@ -129,14 +128,18 @@ footer{
 
 .proxDrch{
     text-align:center;
-    width: 150px;
+    width: 10%;
     height: 80px;
-    margin-left:79%;
+    margin-right: 10px;
     font-size: 2vh;
     border: 1px solid black;
     background-color: yellow;
     -ms-transform: skewY(-20deg);
     transform: skewY(-20deg);
+}
+
+.proxCentro{
+    width:80%;
 }
 
 
@@ -157,9 +160,9 @@ footer{
     position: relative;
     animation-name: moveF;
     animation-duration: 5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 2;
     animation-delay: 1s;  
-    animation-direction: alternate-reverse; 
+    animation-direction: alternate; 
     color:white;
     border: 1px solid black;
 }
@@ -180,9 +183,9 @@ footer{
     position: relative;
     animation-name: moveA;
     animation-duration: 5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 2;
     animation-delay: 1s;  
-    animation-direction: alternate-reverse; 
+    animation-direction: alternate; 
     color:white;
     border: 1px solid black;
 }
@@ -203,9 +206,9 @@ footer{
     position: relative;
     animation-name: moveS1;
     animation-duration: 5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 2;
     animation-delay: 1s;  
-    animation-direction: alternate-reverse; 
+    animation-direction: alternate; 
     color:white;
     border: 1px solid black;
 }
@@ -226,9 +229,9 @@ footer{
     position: relative;
     animation-name: moveE;
     animation-duration: 5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 2;
     animation-delay: 1s;  
-    animation-direction: alternate-reverse; 
+    animation-direction: alternate; 
     color:white;
     border: 1px solid black;
 }
@@ -249,9 +252,9 @@ footer{
     position: relative;
     animation-name: moveS2;
     animation-duration: 5s;
-    animation-iteration-count: 3;
+    animation-iteration-count: 2;
     animation-delay: 1s;  
-    animation-direction: alternate-reverse; 
+    animation-direction: alternate; 
     color:white;
     border: 1px solid black;
 }
