@@ -7,6 +7,7 @@ body{
     background-color:blanchedalmond;
 }
 
+/* Cabecera */
 header{
     height:18vh;
     background-image: url(/images/banner-logo-marvel-8.jpg);
@@ -35,6 +36,7 @@ header:hover{
     opacity: 100;
 }
 
+/* Barra de navegación */
 .navegacion{
     display: flex;
     justify-content:center;
@@ -42,10 +44,6 @@ header:hover{
     background-color: #202020;
     height:10vh;
     flex-direction: row;
-}
-
-a{
-    text-decoration: none;
 }
 
 .efectosnav{
@@ -69,11 +67,13 @@ p{
     font-size: 2vh;
 }
 
+/* Div principal */
 .ppal{
     display: flex;
     margin:10px;
 }
 
+/* Títulos(h?) */
 h1{
     margin-top: 10px;
     padding: 5px;
@@ -86,6 +86,7 @@ h3{
     text-align: center;
 }
 
+/* Pie de página */
 footer{
     display: flex;
     height:11vh;
@@ -101,12 +102,17 @@ footer{
     font-size: 100%;
 }
 
+/* Enlances */
+a{
+    text-decoration: none;
+}
 .enlaces {
     color:#0E96E6;
 }
 
-/* PÁGINA DE INICIO */
+/* --- PÁGINA DE INICIO --- */
 
+/* Div textos */
 .definicion{
     display:flex;
     flex-direction: column;
@@ -115,7 +121,6 @@ footer{
 }
 
 .hijoDef{
-   /*  flex-wrap: wrap row; */
     width: 100%;
     margin: 5px;
     align-items: center;
@@ -124,6 +129,7 @@ footer{
     font-size: 2vh;
 }
 
+/* Novedad */
 .novedad{
     display: flex;
     width: 40%;
@@ -142,6 +148,7 @@ footer{
     
 }
 
+/* Trailer */
 #wakandaTrailer{
     margin:auto;
     width: 80%;
@@ -149,7 +156,7 @@ footer{
     border:5px solid #0E96E6;
 }
 
-
+/* Hr Definición */
 .hrDef{
     border:1px dotted #e62429;
     border-bottom: none;
