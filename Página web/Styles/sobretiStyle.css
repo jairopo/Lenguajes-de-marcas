@@ -10,7 +10,7 @@ body{
 /* Cabecera */
 header{
     height:18vh;
-    background-image: url(/images/banner-logo-marvel-8.jpg);
+    background-image: url(../images/banner-logo-marvel-8.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -25,7 +25,6 @@ header:hover{
     height: 100%;
     color:white;
     background-color:#e62429;
-    font-size: 4vh;
     opacity: 0;
     justify-content: center;
     align-items: center;
@@ -34,6 +33,10 @@ header:hover{
 
 .titulo:hover{
     opacity: 100;
+}
+
+#mcu{
+    font-size: 8vh;
 }
 
 /* Barra de navegación */
@@ -64,7 +67,7 @@ header:hover{
 p{
     text-align:justify;
     margin: 20px;
-    font-size: 2vh;
+    font-size: 2.5vh;
 }
 
 /* Div principal */
@@ -78,6 +81,7 @@ h1{
     margin-top: 10px;
     padding: 5px;
     text-align: center;
+    font-size: 3vh;
 }
 
 h3{
@@ -121,7 +125,7 @@ a{
 .hijoFoto{
     width: 98%;
     height: 50%;
-    margin-top: 12px;
+    margin-top: 20px;
 }
 
 /* Fotos derecha */
