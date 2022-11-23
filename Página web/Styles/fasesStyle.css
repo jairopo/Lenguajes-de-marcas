@@ -11,7 +11,7 @@ body{
 /* Cabecera */
 header{
     height:18vh;
-    background-image: url(/images/banner-logo-marvel-8.jpg);
+    background-image: url(../images/banner-logo-marvel-8.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -26,7 +26,6 @@ header:hover{
     height: 100%;
     color:white;
     background-color:#e62429;
-    font-size: 4vh;
     opacity: 0;
     justify-content: center;
     align-items: center;
@@ -37,6 +36,9 @@ header:hover{
     opacity: 100;
 }
 
+#mcu{
+    font-size: 8vh;
+}
 
 /* Barra de navegación */
 .navegacion{
@@ -66,7 +68,7 @@ header:hover{
 p{
     text-align:center;
     margin: 20px;
-    font-size: 2vh;
+    font-size: 2.5vh;
 }
 
 /* Div principal */
@@ -74,8 +76,6 @@ p{
     display: flex;
     width:100%;
     height: 100%;
-   /*  margin: 10px;
-    border: 1px solid black; */
 }
 
 
