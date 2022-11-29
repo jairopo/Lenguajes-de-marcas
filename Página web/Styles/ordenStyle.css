@@ -42,11 +42,17 @@ header:hover{
 /* Barra de navegación */
 .navegacion{
     display: flex;
+    flex-wrap: wrap;
     justify-content:center;
     align-items: center;
     background-color: #202020;
-    height:10vh;
-    flex-direction: row;
+    height:125%;
+}
+
+.navegacion>p{
+    text-align:justify;
+    margin: 20px;
+    font-size: 2.5vh;
 }
 
 .efectosnav{
@@ -64,17 +70,17 @@ header:hover{
     color:#202020;
 }
 
-p{
-    text-align:justify;
-    margin: 20px;
-    font-size: 2.5vh;
-}
-
 /* Div principal */
 .ppal{
     display: flex;
     flex-direction: column;
     margin:10px;
+}
+
+.ppal>p{
+    text-align:justify;
+    margin: 20px;
+    font-size: 2.5vh;
 }
 
 /* Títulos(h?) */
@@ -112,6 +118,7 @@ footer{
 /* Enlances */
 a{
     text-decoration: none;
+
 }
 .enlaces {
     color:#0E96E6;
@@ -122,18 +129,117 @@ a{
 /* Descripción */
 .descripcion{
     padding: 10px 50px 0;
+}
+
+.hijoDesc{
     border: 5px solid #0E96E6;
 }
 
+.hijoDesc>p{
+    text-align:justify;
+    margin: 20px;
+    font-size: 2.5vh;
+}
+
+/* FECHA DE ESTRENO */
+.estrenoPpal{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px 0;
+}
+
+.tituloEstreno{
+    width:100%;
+}
+
+.hijoEstreno{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pelisEstreno{
+    width:15%;
+    margin:5px;
+    border:3px solid black;
+    font-size: 2.5vh;
+    color: #151515;
+}
+
+.pelisEstreno:hover{
+    transform: scale(0.9);
+    color:#e62429;
+}
+
+.imagenesEstreno{
+    width: 100%;
+    height: 100%;
+}
+
+.tituloImagen{
+    font-size: 2.5vh;
+    text-align: left;
+}
 
 
+/* ORDEN CRONÓLOGICO */
+.cronologicoPpal{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px 0;
+}
 
+.tituloCrono{
+    width:100%;
+}
 
 
 /* div{
     border:1px solid black;
 } */
 
-/* transform: scale(0.9); */
-/* flex-wrap: wrap */
-/* hacer indice */
+/* ---- RESPONSIVE ---- */
+
+/* PEQUEÑO */
+@media screen and (max-width: 768px) {
+
+    #mcu{
+        font-size: 6vh;
+    }
+
+    .navegacion{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 50vh;
+    }
+
+    .navegacion>p{
+        text-align:justify;
+        margin: 15px;
+        font-size: 2.5vh;
+    }
+
+    .ppal{
+        display: flex;
+        flex-direction: column;
+        margin:5px;
+    }
+
+    .ppal>p{
+        text-align:justify;
+        margin: 20px;
+        font-size: 2.5vh;
+    }
+
+    .pelisEstreno{
+        width:25%;
+        margin:5px;
+        border:3px solid black;
+        font-size: 2.5vh;
+        color: #151515;
+    }
+
+
+}
