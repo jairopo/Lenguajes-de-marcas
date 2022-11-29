@@ -144,7 +144,7 @@ a{
     border: 5px solid #e62429;
     background-color: rgba(243, 209, 106, 0.869);
     animation-name: novedad;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
