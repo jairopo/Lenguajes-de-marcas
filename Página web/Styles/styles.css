@@ -45,8 +45,9 @@ header:hover{
     justify-content:center;
     align-items: center;
     background-color: #202020;
-    height:10vh;
+    height:125%;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .efectosnav{
@@ -60,7 +61,7 @@ header:hover{
 }
 
 .efectosnav:hover{
-    background-color: #0E96E6;
+    background-color:rgb(67, 196, 235);
     color:#202020;
 }
 
@@ -175,4 +176,81 @@ a{
     border:1px dotted #e62429;
     border-bottom: none;
     border-width: 5px;
+}
+
+
+/* --- RESPONSIVE --- */
+
+/* PEQUEÑO */
+@media screen and (max-width: 768px) {
+
+    #mcu{
+        font-size: 5vh;
+    }
+
+    .navegacion{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 20vh;
+    }
+
+    .navegacion>p{
+        text-align:justify;
+        margin: 15px;
+        font-size: 2.5vh;
+    }
+
+    .ppal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:5px;
+    }
+
+    div{
+        border: 1px solid black;
+    }
+
+    .definicion{
+        display:flex;
+        flex-direction: column;
+        width:90%;
+        margin:5px;
+    }
+
+    /* Novedad */
+    .novedad{
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+        margin:10px;
+        border: 5px solid #e62429;
+        background-color: rgba(243, 209, 106, 0.869);
+        animation-name: novedad;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+
+    /* movimiento novedad */
+    @keyframes novedad{
+        0%   {transform: scale(1.01,1.01);}
+        100% {trnasform: scale(0,0);}    
+    }
+
+    .hijoNov{
+        align-items: center;
+        justify-content: center;
+        text-align:justify;
+        margin: 15px;
+        font-size: 2vh;
+    }
+
+    /* Trailer */
+    #wakandaTrailer{
+        margin:auto;
+        width: 80%;
+        height:50%;
+        border:5px solid #0E96E6;
+    }
 }

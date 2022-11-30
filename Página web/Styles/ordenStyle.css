@@ -200,14 +200,14 @@ a{
 @media screen and (max-width: 768px) {
 
     #mcu{
-        font-size: 6vh;
+        font-size: 5vh;
     }
 
     .navegacion{
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
-        height: 50vh;
+        height: 20vh;
     }
 
     .navegacion>p{

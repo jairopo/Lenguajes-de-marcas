@@ -46,8 +46,9 @@ header:hover{
     justify-content:center;
     align-items: center;
     background-color: #202020;
-    height:10vh;
+    height:125%;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .efectosnav{
