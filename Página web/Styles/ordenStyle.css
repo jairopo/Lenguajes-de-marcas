@@ -189,6 +189,31 @@ a{
     width:100%;
 }
 
+.hijoCrono{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pelisCrono{
+    width:15%;
+    margin:5px;
+    border:3px solid black;
+    font-size: 2.5vh;
+    color: #151515;
+    background-color: white;
+}
+
+.pelisCrono:hover{
+    transform: scale(0.9);
+    color:#0E96E6;
+}
+
+.imagenesCrono{
+    width: 100%;
+    height: 100%;
+}
 
 /* div{
     border:1px solid black;
@@ -199,6 +224,7 @@ a{
 /* PEQUEÑO */
 @media screen and (max-width: 768px) {
 
+    /* CABECERA */
     #mcu{
         font-size: 5vh;
     }
@@ -228,7 +254,17 @@ a{
         font-size: 2.5vh;
     }
 
+    /* ORDEN ESTRENO */
     .pelisEstreno{
+        width:25%;
+        margin:5px;
+        border:3px solid black;
+        font-size: 2.5vh;
+        color: #151515;
+    }
+
+    /* ORDEN CRONOLÓGICO */
+    .pelisCrono{
         width:25%;
         margin:5px;
         border:3px solid black;

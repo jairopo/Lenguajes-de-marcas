@@ -42,12 +42,17 @@ header:hover{
 /* Barra de navegación */
 .navegacion{
     display: flex;
+    flex-wrap: wrap;
     justify-content:center;
     align-items: center;
     background-color: #202020;
     height:125%;
-    flex-direction: row;
-    flex-wrap: wrap;
+}
+
+.navegacion>p{
+    text-align:justify;
+    margin: 20px;
+    font-size: 2.5vh;
 }
 
 .efectosnav{
@@ -65,16 +70,17 @@ header:hover{
     color:#202020;
 }
 
-p{
-    text-align:justify;
-    margin: 20px;
-    font-size: 2.5vh;
-}
-
 /* Div principal */
 .ppal{
     display: flex;
+    flex-direction: column;
     margin:10px;
+}
+
+.ppal>p{
+    text-align:justify;
+    margin: 20px;
+    font-size: 2.5vh;
 }
 
 /* Títulos(h?) */
@@ -112,9 +118,69 @@ footer{
 /* Enlances */
 a{
     text-decoration: none;
+
 }
 .enlaces {
     color:#0E96E6;
 }
 
-/* --- TRAILERS --- */
+/* --- ORDEN --- */
+
+/* Descripción */
+.descripcion{
+    padding: 10px 50px 0;
+}
+
+.hijoDesc{
+    border: 5px solid #e62429;
+}
+
+.hijoDesc>p{
+    text-align:justify;
+    margin: 20px;
+    font-size: 2.5vh;
+}
+
+/* --- HÉROES --- */
+.heroesPpal{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px 0;
+}
+
+.tituloHeroe{
+    width:100%;
+}
+
+.hijoHeroe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heroesDiv{
+    width:15%;
+/*     height:25%;
+ */    margin:5px;
+    font-size: 2.5vh;
+    background-color: #151515;
+}
+
+.heroesDiv:hover{
+    transform: scale(0.9);
+    color:#e62429;
+}
+
+.fotoHeroe{
+    width: 100%;
+    height: 100%;
+}
+
+.nombreHeroe{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    font: 400 16px/1.1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+}
