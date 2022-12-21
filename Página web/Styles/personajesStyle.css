@@ -186,7 +186,7 @@ a{
 }
 
 /* - VILLANOS - */
-.villanoPpal{
+.villanosPpal{
     display: flex;
     flex-direction: column;
     padding: 10px 50px 0;
@@ -196,7 +196,7 @@ a{
     width:100%;
 }
 
-.hijoHeroe{
+.hijoVillano{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -216,12 +216,12 @@ a{
     color:#e62429;
 }
 
-.fotoHeroe{
+.fotoVillano{
     width: 100%;
     height: 100%;
 }
 
-.nombreHeroe{
+.nombreVillano{
     width: 100%;
     height: 50px;
     text-align: center;
